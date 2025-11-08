@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan - Personal Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(to right, #4b6cb7, #182848);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+        
+        @media (min-width: 768px) {
+            .content {
+                flex-direction: row;
+            }
+        }
+        
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        
+        .profile-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #4b6cb7;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .bio-section {
+            flex: 2;
+            padding: 20px;
+        }
+        
+        h2 {
+            color: #182848;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eaeaea;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .skill {
+            background-color: #eef2f7;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #4b6cb7;
+            font-weight: 500;
+        }
+        
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #6c757d;
+            border-top: 1px solid #eaeaea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nishant borude</h1>
+            <p class="tagline">Web Developer & Digital Designer</p>
+        </header>
+        
+        <div class="content">
+            <div class="image-section">
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQEnYQkBF_yDug/profile-displayphoto-scale_400_400/B4EZjazkeeHoAg-/0/1756017612146?e=1764201600&v=beta&t=Czu6p3x9UsMpmxxtQ7Xq8tRJCmAoe28GayhoqcVAQks" alt="Nishant borude" class="profile-img">
+            </div>
+            
+            <div class="bio-section">
+                <h2>About Me</h2>
+                <p>Hello! I'm Nishant, a passionate web developer with over 5 years of experience creating beautiful and functional websites. I specialize in front-end development but also have experience with full-stack projects.</p>
+
+                <p>My journey in tech started during college where I studied Computer Science. Since then, I've worked with various startups and established companies, helping them build their online presence and digital products.</p>
+                
+                <p>When I'm not coding, you can find me hiking in the mountains, experimenting with photography, or exploring new coffee shops in the city. I believe in continuous learning and am always excited about new technologies and design trends.</p>
+                
+                <div class="skills">
+                    <span class="skill">HTML/CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">React</span>
+                    <span class="skill">UI/UX Design</span>
+                    <span class="skill">Responsive Design</span>
+                    <span class="skill">Node.js</span>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2023 Nishant borude. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
